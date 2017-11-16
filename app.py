@@ -44,7 +44,4 @@ def makeWebhookResult(req):
 
 if __name__ == '__main__':
     
-
-    print "Starting app on port 8081"
-
-    app.run(debug=True, port=8081, host='0.0.0.0')
+    app.run(debug=True, use_reloader=True)
