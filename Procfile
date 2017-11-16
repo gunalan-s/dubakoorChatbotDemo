@@ -1,1 +1,1 @@
-web: python dubakoordemo.py
+web: python app.py
