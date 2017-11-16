@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 13 18:09:26 2017
-
-@author: 605482
-"""
 import urllib
 import json
 import os
@@ -48,8 +43,8 @@ def makeWebhookResult(req):
 
 
 if __name__ == '__main__':
-    port = int(os.getenv('PORT', 5000))
+    
 
-    print "Starting app on port %d" % port
+    print "Starting app on port 8081"
 
-    app.run(debug=True, port=port, host='0.0.0.0')
+    app.run(debug=True, port=8081, host='0.0.0.0')
